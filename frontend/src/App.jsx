@@ -25,7 +25,7 @@ function App() {
       
       <footer className="bg-light text-center py-3 mt-4 border-top">
         <p className="mb-0 text-muted">
-          © {new Date().getFullYear()} Planta Care App | Desarrollado por <strong>Aaron Duque</strong>
+          © {new Date().getFullYear()} Plant Care | Desarrollado por <strong>Aaron Duque</strong>
         </p>
       </footer>
     </div>

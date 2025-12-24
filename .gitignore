@@ -1,31 +1,46 @@
-# --- JAVA / SPRING BOOT ---
+# --- IDE & TOOLS ---
+.idea/
+.vscode/
+*.swp
+*.swo
+.DS_Store
+Thumbs.db
+.classpath
+.project
+.settings/
+.qodo/
+
+# --- LOGS ---
+*.log
+logs/
+npm-debug.log*
+yarn-debug.log*
+yarn-error.log*
+
+# --- BACKEND (Spring Boot) ---
 backend/target/
 backend/.mvn/wrapper/maven-wrapper.jar
 backend/**/*.class
-backend/.idea/
 backend/*.iml
-backend/uploads/.gitkeep
-backend/*.log
-backend/.classpath
-backend/.project
-backend/.settings/
-backend/.vscode/
+# Ignorar contenido de uploads pero mantener la carpeta
+backend/uploads/*
+!backend/uploads/.gitkeep
 
-# --- REACT / NODE ---
+# --- FRONTEND (React/Node) ---
 frontend/node_modules/
 frontend/dist/
 frontend/build/
+frontend/coverage/
 frontend/.env
 frontend/.env.local
-frontend/.env.*.local
-frontend/.DS_Store
-frontend/coverage/
-frontend/.vscode/
+frontend/.env.development.local
+frontend/.env.test.local
+frontend/.env.production.local
 
-# --- SYSTEM ---
-.DS_Store
-Thumbs.db
-*.log
-tmp/
+# --- MISC / ROOT UPLOADS ---
+# Ignorar contenido de uploads del backend (archivos de usuarios)
+backend/uploads/*
+!backend/uploads/.gitkeep
 
-.qodo/
+# Permitir uploads de la raiz (para imagenes del README/Portafolio)
+!uploads/
