@@ -4,8 +4,7 @@ backend/.mvn/wrapper/maven-wrapper.jar
 backend/**/*.class
 backend/.idea/
 backend/*.iml
-backend/uploads/
-!backend/uploads/.gitkeep
+backend/uploads/.gitkeep
 backend/*.log
 backend/.classpath
 backend/.project
@@ -28,3 +27,5 @@ frontend/.vscode/
 Thumbs.db
 *.log
 tmp/
+
+.qodo/
