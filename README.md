@@ -3,7 +3,6 @@
 > **Gestión integral para el cuidado y seguimiento de tus plantas.**
 
 ![Dashboard Preview](uploads/dashboard.png)
-*(Aquí puedes poner una captura principal del Dashboard o la Landing Page)*
 
 ## 📖 Descripción
 
