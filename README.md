@@ -57,7 +57,6 @@ Este proyecto fue desarrollado como parte de un portafolio profesional, demostra
 | Login | Dashboard | Detalles de Planta |
 |-------|-----------|--------------------|
 | ![Login Screen](uploads/login.png) | ![Dashboard](uploads/dashboard.png) | ![Plant Details](uploads/details.png) |
-*(Reemplaza estas rutas con tus imágenes reales en la carpeta uploads)*
 
 ---
 
