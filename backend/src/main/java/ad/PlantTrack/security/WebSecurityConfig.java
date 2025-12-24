@@ -77,7 +77,11 @@ public class WebSecurityConfig {
     public CorsConfigurationSource corsConfigurationSource() {
         CorsConfiguration configuration = new CorsConfiguration();
         // Permitir el origen de tu Frontend (React Vite usa el puerto 5173)
-        configuration.setAllowedOrigins(Arrays.asList("http://localhost:5173", "http://localhost:8080"));
+        configuration.setAllowedOrigins(Arrays.asList("http://localhost:5173", "http://localhost:8080",
+                "https://plant-care-8nwen8szn-aaronduque2006s-projects.vercel.app",
+                "https://plant-care-chi.vercel.app"
+        ));
+
         // Permitir todos los verbos HTTP
         configuration.setAllowedMethods(Arrays.asList("GET", "POST", "PUT", "DELETE", "OPTIONS"));
         // Permitir enviar el Token en la cabecera
